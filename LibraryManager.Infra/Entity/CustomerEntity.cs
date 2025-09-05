@@ -1,0 +1,10 @@
+﻿namespace LibraryManager.Infra.Entity;
+
+public class CustomerEntity
+{
+    public string Name { get; set; }
+    public Guid Id { get; set; }
+    public string Address { get; set; }
+    public string Phone { get; set; }
+    public decimal Score { get; set; }
+}
