@@ -30,7 +30,7 @@ public sealed class DataContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseMySql("Server=localhost, 3306;Database=DB_MANAGER_BOOK;User=root;Password=root;", 
-            new MySqlServerVersion(new Version(8, 0, 21)), 
+            new MySqlServerVersion(new Version(9, 0, 21)), 
             options => options.MigrationsAssembly("LibraryManager.Infra"));
             
         base.OnConfiguring(optionsBuilder);

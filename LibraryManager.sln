@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManager.Infra", "Lib
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManager.Web", "LibraryManager.Web\LibraryManager.Web.csproj", "{40FC1AB7-182A-4B74-8D49-868B45418F53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Librarymanager.Tests", "Librarymanager.Tests\Librarymanager.Tests.csproj", "{0CD1206D-00CB-4DD0-B802-26AD0C666C55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{40FC1AB7-182A-4B74-8D49-868B45418F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40FC1AB7-182A-4B74-8D49-868B45418F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40FC1AB7-182A-4B74-8D49-868B45418F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD1206D-00CB-4DD0-B802-26AD0C666C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD1206D-00CB-4DD0-B802-26AD0C666C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD1206D-00CB-4DD0-B802-26AD0C666C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD1206D-00CB-4DD0-B802-26AD0C666C55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
